@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: deployment-container
-        image: amulyaproject/maven-web-application
+        image: amulyaproject/my-maven-project:latest
         ports:
         - containerPort: 8080
 ---
